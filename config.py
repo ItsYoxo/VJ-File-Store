@@ -27,25 +27,6 @@ ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ
 BOT_USERNAME = environ.get("BOT_USERNAME", "AKCRDbot") # without @
 PORT = environ.get("PORT", "8080")
 
-# Other configurations...
-
-# Restricted command example
-from telegram import Update
-from telegram.ext import CommandHandler, CallbackContext
-
-def restricted(func):
-    def wrapper(update: Update, context: CallbackContext, *args, **kwargs):
-        user_id = update.effective_user.id
-        if user_id not in ADMINS:
-            update.message.reply_text("You are not authorized to use this command.")
-            return
-        return func(update, context, *args, **kwargs)
-    return wrapper
-
-@restricted
-def start(update: Update, context: CallbackContext):
-    update.message.reply_text("Welcome, Admin!")
-
 # Clone Info :-
 CLONE_MODE = bool(environ.get('CLONE_MODE', True)) # Set True or False
 
