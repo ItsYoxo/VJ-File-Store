@@ -4,7 +4,7 @@
 
 
 class script(object):
-    START_TXT = """<b>ʜᴇʟʟᴏ {}, This is a Permanent FileStore Bot.\n\nHow to Use Bot & it's Benefits??\n\n📢 Send me any File & It will be uploaded in My Database & You will Get the File Link.\n\n⚠️ Benefits: If you have a TeleGram Movie Channel or Any Copyright Channel, Then Its Useful for Daily Usage, You can Send Me Your File & I will Send Permanent Link to You & Channel will be Safe from CopyRight Infringement Issue. I support Channel Also You Can Check About Bot.\n\n❌ PORNOGRAPHY CONTENTS are strictly prohibited & get Permanent Ban. </b>"""
+    START_TXT = """<b>ʜᴇʟʟᴏ {}, \n\nThis is a Permanent FileStore Bot.\n\nHow to Use Bot & it's Benefits??\n\n📢 Send me any File & It will be uploaded in My Database & You will Get the File Link.\n\n⚠️ Benefits: If you have a TeleGram Movie Channel or Any Copyright Channel, Then Its Useful for Daily Usage, You can Send Me Your File & I will Send Permanent Link to You & Channel will be Safe from CopyRight Infringement Issue. I support Channel Also You Can Check About Bot.\n\n❌ PORNOGRAPHY CONTENTS are strictly prohibited & get Permanent Ban. </b>"""
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
