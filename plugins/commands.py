@@ -63,9 +63,6 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/+idUaITYx3jo2MjU1'),
             InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/All_Korean_Chinese_Drama_Hindi')
-            ],[
-            InlineKeyboardButton('💁‍♀️ ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('😊 ᴀʙᴏᴜᴛ', callback_data='about')
         ]]
         if CLONE_MODE == True:
             buttons.append([InlineKeyboardButton('🤖 ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')])
@@ -344,9 +341,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ],[
             InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/+idUaITYx3jo2MjU1'),
             InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/All_Korean_Chinese_Drama_Hindi')
-        ],[
-            InlineKeyboardButton('💁‍♀️ ʜᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('😊 ᴀʙᴏᴜᴛ', callback_data='about')
         ]]
         if CLONE_MODE == True:
             buttons.append([InlineKeyboardButton('🤖 ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')])
