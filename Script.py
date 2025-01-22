@@ -19,7 +19,7 @@ How to Use Bot & it's Benefits??
 # Ask Doubt on telegram @KingVJ01
 
     
-    CAPTION = """<b>📂 ғɪʟᴇɴᴀᴍᴇ : {file_name}
+    CAPTION = """<b> {file_name}
 
 Jᴏɪɴ [ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ](https://t.me/All_Korean_Chinese_Drama_Hindi)</b>""" 
 
